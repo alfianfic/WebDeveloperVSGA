@@ -1,4 +1,4 @@
-Link Tugas 
+Link Tugas https://github.com/alfianfic/WebDeveloperVSGA/tree/main/tugas5 
 
 1. Apa yang dimaksud dengan type juggling di PHP?
 
