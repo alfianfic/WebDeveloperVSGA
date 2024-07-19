@@ -1,0 +1,20 @@
+Link Tugas 
+
+1. Apa yang dimaksud dengan type juggling di PHP?
+
+Type juggling di PHP adalah proses di mana PHP secara otomatis mengonversi nilai dari satu tipe data ke tipe data lain saat diperlukan. Misalnya, saat Anda menambahkan integer ke string yang berisi angka, PHP secara otomatis mengonversi string tersebut menjadi integer untuk melakukan operasi penjumlahan.
+
+2. Apakah perbedaan antara operator == dengan === dalam PHP?
+
+    == (Equality Operator): Membandingkan dua nilai untuk kesetaraan setelah melakukan konversi tipe data jika diperlukan (type juggling). Misalnya, 5 == "5" akan mengembalikan true.
+    === (Identity Operator): Membandingkan dua nilai untuk kesetaraan tanpa melakukan konversi tipe data. Ini membandingkan tipe data dan nilai secara ketat. Misalnya, 5 === "5" akan mengembalikan false karena tipe data berbeda.
+
+3. Apa sajakah jenis operator yang menghasilkan nilai boolean?
+
+    Operator pembanding (==, ===, !=, !==, >, <, >=, <=)
+    Operator logika (&&, ||, !)
+
+4. Apakah perbedaan antara tipe data primitif dengan tipe data objek?
+
+    Tipe data primitif adalah tipe data dasar yang disediakan oleh bahasa pemrograman seperti integer, float, boolean, dan string. Mereka menyimpan nilai langsung dan tidak memiliki metode atau properti.
+    Tipe data objek adalah instance dari class dan dapat memiliki metode dan properti. Mereka menyimpan referensi ke lokasi memori di mana data sebenarnya disimpan.
