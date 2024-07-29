@@ -1,0 +1,17 @@
+Link Tugas
+https://drive.google.com/drive/folders/1AJlmqN_BM072Snlh7oSJeNDKD8BDD-1s
+
+1. Apa perbedaan antara DDL dan DML dalam SQL ?
+- DDL adalah kumpulan perintah SQL yang digunakan untuk mendefinisikan, mengubah, dan menghapus struktur dari objek basis data seperti tabel, indeks, dan skema.
+Contoh Perintah: CREATE, ALTER, DROP, TRUNCATE
+
+- DML adalah kumpulan perintah SQL yang digunakan untuk mengelola data yang ada dalam objek basis data seperti tabel.
+Contoh Perintah: SELECT, INSERT, UPDATE, DELETE
+
+2. Apa perbedaan antara primary key dan foreign key ?
+- Primary key adalah kolom atau kumpulan kolom dalam tabel yang secara unik mengidentifikasi setiap baris dalam tabel tersebut.
+
+- Foreign key adalah kolom dalam tabel yang merujuk pada primary key di tabel lain, digunakan untuk memastikan integritas referensial antara tabel.
+
+3. Mengapa penting untuk menambahkan klausa WHERE baik dalam perintah UPDATE maupun DELETE? Bagaimana jika menjalankan perintah DELETE tanpa ada klausa WHERE?
+Untuk mencegah operasi massal tidak sengaja, dan agar dapat mengontrol operasi pembaruan dan penghapusan dengan lebih presisi, mengurangi risiko kesalahan dan memastikan bahwa hanya data yang dimaksud yang diubah atau dihapus.

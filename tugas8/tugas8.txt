@@ -1,0 +1,19 @@
+Link Tugas
+https://drive.google.com/drive/folders/19w765lz9MAlvybwU2wSAmq_2dYAYDzVV
+
+1. Apa perbedaan antara array numerik dan array asosiatif ?
+Array Numerik adalah Array yang indeksnya adalah bilangan bulat. Elemen-elemen array diakses menggunakan indeks numerik.
+Array Asosiatif adalah Array yang indeksnya adalah string. Elemen-elemen array diakses menggunakan kunci asosiatif.
+
+2. Kapan perlu digunakan array multidimensi?
+Ketika data yang berisi informasi terstruktur seperti alamat, kontak, atau produk dalam keranjang belanja. Array multidimensi digunakan ketika data memiliki lebih dari satu tingkat atau dimensi.
+
+3. Apakah array asosiatif bisa digunakan sebagai array multidimensi?berikan contoh singkatnya!
+Ya bisa, array asosiatif bisa digunakan sebagai array multidimensi.
+
+4. Apakah kegunaan fungsi bawaan PHP seperti array_merge, rsort, in_array, array_search, array_slice?
+- array_merge: Menggabungkan dua atau lebih array.     
+- rsort: Mengurutkan array secara menurun (reverse sort).     
+- in_array: Memeriksa apakah sebuah nilai ada dalam array. 
+- array_search: Mencari nilai dalam array dan mengembalikan kunci pertama yang ditemukan.
+- array_slice: Mengambil potongan (subset) dari array.

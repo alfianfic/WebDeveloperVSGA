@@ -1,0 +1,49 @@
+Link Tugas
+https://drive.google.com/drive/folders/19wMhZFQyFoDHQQtWL5FJlCVB8OiSiRGd
+
+Jawaban pertanyaan
+
+1. Apa yang dimaksud dengan Class dan Objek?
+
+-  Class Class adalah blueprint atau template yang mendefinisikan atribut dan method yang dimiliki oleh objek.
+  
+-  Object Objek adalah instance dari class. Objek dibuat berdasarkan template dari class dan memiliki nilai nyata untuk atributnya.     
+
+2. Apa yang dimaksud dengan Properti dan Fungsi dalam Suatu Objek?
+
+- Properti adalah variabel yang didefinisikan di dalam sebuah class dan dimiliki oleh setiap objek dari class tersebut. Properti menggambarkan atribut atau karakteristik dari objek.
+
+-  Fungsi (Method) adalah tindakan atau perilaku yang bisa dilakukan oleh objek. Fungsi didefinisikan di dalam sebuah class.
+
+3. Apa Kegunaan Kata Kunci  new ?
+
+-  Kegunaan  new  digunakan untuk membuat instance baru dari sebuah class, yaitu objek.
+
+4. Bagaimana Cara Memanggil atau Mengakses Properti dan Method dari Suatu Objek?
+
+-  Mengakses Properti menggunakan operator panah  ->  diikuti nama properti.
+  -  Contoh :
+     php
+    echo $myCar->color; // Mengakses properti color
+     
+-  Memanggil method menggunakan operator panah  ->  diikuti nama method dan tanda kurung.
+  -  Contoh :
+     php
+    echo $myCar->message(); // Memanggil method message   
+
+5. Sebutkan Kegunaan dari Konstruktor!
+
+-  Konstruktor digunakan untuk menginisialisasi properti objek dengan nilai awal.
+  
+  6. Kegunaan Fungsi Bawaan PHP
+
+-   array_merge  : Menggabungkan dua atau lebih array.
+     
+-   rsort  : Mengurutkan array secara menurun (reverse sort).     
+
+-   in_array  : Memeriksa apakah sebuah nilai ada dalam array.
+ 
+-   array_search  : Mencari nilai dalam array dan mengembalikan kunci pertama yang ditemukan.
+  
+-   array_slice  :
+    Mengambil potongan (subset) dari array.

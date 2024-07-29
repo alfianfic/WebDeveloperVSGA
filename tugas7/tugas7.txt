@@ -1,0 +1,14 @@
+Link tugas
+https://drive.google.com/drive/folders/19v39Etl_8unyil-PpfEMgIlUUumccMc9
+
+1. Apa perbedaan perulangan syarat awal, dengan perulangan syarat akhir ?
+Perulangan Syarat Awal merupakan kondisi yang diuji di awal sebelum perulangan dimulai. Jika kondisi tidak terpenuhi, perulangan tidak akan dijalankan sama sekali
+Perulangan Syarat Akhir merupakan kondisi yang diuji di akhir setelah satu kali iterasi perulangan dilakukan. Ini berarti perulangan dijamin akan dijalankan setidaknya satu kali
+2. Struktur perulangan apa saja yang merupakan perulangan dengan syarat awal?
+for dan while
+3. Apa perbedaan antara for dan while?
+for: Memeriksa kondisi sebelum setiap iterasi, dengan tiga komponen utama: inisialisasi, kondisi, dan iterasi.
+while: Memeriksa kondisi sebelum setiap iterasi.
+4. Apa perbedaan antara while dan do-while?
+while : Memeriksa kondisi sebelum menjalankan blok kode.
+do-while : Menjalankan blok kode terlebih dahulu, kemudian memeriksa kondisi.
