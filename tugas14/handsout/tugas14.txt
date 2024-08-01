@@ -1,0 +1,20 @@
+https://drive.google.com/drive/folders/1_2ZwTrf3PoTDLarb1YXtisZlw2QyYfXT?usp=drive_link
+https://github.com/alfianfic/WebDeveloperVSGA/tree/main/tugas14
+
+Metode OOP (Object-Oriented Programming)
+
+    Struktur: Berbasis objek dengan menggunakan class dan object.
+    Modularitas: Kode dapat dipecah menjadi bagian-bagian yang dapat digunakan kembali.
+    Enkapsulasi: Menggabungkan data dan fungsi yang memanipulasi data tersebut ke dalam satu unit (class).
+    Pewarisan: Class dapat mewarisi properti dan metode dari class lain.
+    Polimorfisme: Objek dapat mengambil banyak bentuk, dan metode yang berbeda dapat dipanggil melalui referensi yang sama.
+    Contoh Penggunaan: Cocok untuk aplikasi yang kompleks dan besar yang membutuhkan struktur yang terorganisir.
+
+Metode Prosedural
+
+    Struktur: Berbasis fungsi dan prosedur.
+    Tidak Ada Enkapsulasi: Data dan fungsi dipisahkan.
+    Tidak Ada Pewarisan: Tidak ada konsep pewarisan seperti dalam OOP.
+    Pendekatan Linear: Kode dieksekusi secara linier dari atas ke bawah.
+    State Management: Variabel sering kali memiliki ruang lingkup global, membuat manajemen state menjadi kompleks.
+    Contoh Penggunaan: Cocok untuk program yang lebih sederhana dan lebih kecil.    
