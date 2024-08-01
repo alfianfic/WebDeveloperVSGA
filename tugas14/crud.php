@@ -3,62 +3,41 @@ class Student {
     private $conn;
     private $table_name = "mahasiswa";
 
-    public $nim;
-    public $nama;
-    public $tempat_lahir;
-    public $tanggal_lahir;
-    public $jurusan;
-    public $program_studi;
-    public $ipk;
-
     public function __construct($db) {
         $this->conn = $db;
     }
 
     // Create student
-    public function create() {
-        $query = "INSERT INTO " . $this->table_name . " SET nim=?, nama=?, tempat_lahir=?, tanggal_lahir=?, jurusan=?, program_studi=?, ipk=?";
+    public function create($data) {
+        $query = "INSERT INTO " . $this->table_name . " (nim, nama, tempat_lahir, tanggal_lahir, jurusan, program_studi, ipk) VALUES (?, ?, ?, ?, ?, ?, ?)";
         $stmt = $this->conn->prepare($query);
+        $stmt->bind_param("isssssd", $data['nim'], $data['nama'], $data['tempat_lahir'], $data['tanggal_lahir'], $data['jurusan'], $data['program_studi'], $data['ipk']);
 
-        $stmt->bind_param("isssssd", $this->nim, $this->nama, $this->tempat_lahir, $this->tanggal_lahir, $this->jurusan, $this->program_studi, $this->ipk);
-
-        if ($stmt->execute()) {
-            return true;
-        }
-        return false;
+        return $stmt->execute();
     }
 
     // Read all students
     public function read() {
         $query = "SELECT * FROM " . $this->table_name;
-        $result = $this->conn->query($query);
-        return $result;
+        return $this->conn->query($query);
     }
 
     // Update student
-    public function update() {
+    public function update($data) {
         $query = "UPDATE " . $this->table_name . " SET nama=?, tempat_lahir=?, tanggal_lahir=?, jurusan=?, program_studi=?, ipk=? WHERE nim=?";
         $stmt = $this->conn->prepare($query);
+        $stmt->bind_param("ssssssd", $data['nama'], $data['tempat_lahir'], $data['tanggal_lahir'], $data['jurusan'], $data['program_studi'], $data['ipk'], $data['nim']);
 
-        $stmt->bind_param("ssssssd", $this->nama, $this->tempat_lahir, $this->tanggal_lahir, $this->jurusan, $this->program_studi, $this->ipk, $this->nim);
-
-        if ($stmt->execute()) {
-            return true;
-        }
-        return false;
+        return $stmt->execute();
     }
 
     // Delete student
-    public function delete() {
-        $query = "DELETE FROM " . $this->table_name . " WHERE nim = ?";
+    public function delete($nim) {
+        $query = "DELETE FROM " . $this->table_name . " WHERE nim=?";
         $stmt = $this->conn->prepare($query);
+        $stmt->bind_param("i", $nim);
 
-        $stmt->bind_param("i", $this->nim);
-
-        if ($stmt->execute()) {
-            return true;
-        }
-        return false;
+        return $stmt->execute();
     }
 }
 ?>
