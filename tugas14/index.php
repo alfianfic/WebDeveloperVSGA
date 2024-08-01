@@ -50,6 +50,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     IPK: <input type="text" name="ipk" required><br>
     <input type="submit" name="create" value="Create">
     <input type="submit" name="update" value="Update">
+</form>
+
+<h2>Delete Mahasiswa</h2>
+<form method="POST" action="index.php">
+    NIM: <input type="text" name="nim" required><br>
     <input type="submit" name="delete" value="Delete">
 </form>
 
@@ -66,8 +71,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </tr>
 
     <?php
-    $stmt = $student->read();
-    while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+    $result = $student->read();
+    while ($row = $result->fetch_assoc()) {
         echo "<tr>";
         echo "<td>{$row['nim']}</td>";
         echo "<td>{$row['nama']}</td>";
